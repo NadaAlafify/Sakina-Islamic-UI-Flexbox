@@ -1,137 +1,142 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Amiri", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Amiri", serif;
 }
 
 body {
-    background-color: #fcfaf7; 
-    color: #444;
+  background-color: #fcfaf7; 
+  color: #444;
 }
 
 body , .navbar_header , .card img{
-  width: 100%;
+width: 100%;
 }
 
 .navbar_header {
-    min-height: 70px;
-    border-bottom: 1px solid #e2e8f0;
-    justify-content: space-between;
-    padding: 0 50px;
+  min-height: 70px;
+  border-bottom: 1px solid #e2e8f0;
+  justify-content: space-between;
+  padding: 0 50px;
+  position: fixed;   
+  top: 0;            
+  right: 0;          
+  left: 0;           
+  z-index: 1000;     
 }
 
 .navbar_header , .card , .container , .hadeeth_parent , .religious-icons-footer , .big-parent{
-  display: flex;
+display: flex;
 
 }
 .navbar_header , .hadeeth_parent{
-  align-items: center;
+align-items: center;
 
 }
 .navbar_header , .quote_box{
-  background: white;
-
-
+background: white;
 }
 
 #logo {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #5b5a55;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5b5a55;
 }
 
 .header_paragraph {
-    font-size: 1.2rem;
-    color: #8E9775; 
-    font-style: italic;
+  font-size: 1.2rem;
+  color: #8E9775; 
+  font-style: italic;
 }
 
 /* //////////////////////////////////////////////////////// navbar END  */
 
 .big-parent {
-    flex-wrap: wrap;
-    padding: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  /* background-color: #333; */
+  margin-top: 95px;
 }
 
 .big-parent , .hadeeth_parent , .religious-icons-footer{
-  justify-content: center;
+justify-content: center;
 }
 
 .big-parent , .religious-icons-footer{
-  gap: 30px;
+gap: 30px;
 }
-.big-parent , .hadeeth_parent{
-  margin-top: 25px;
+.hadeeth_parent{
+margin-top: 25px;
 }
 
 .card {
-    height: 250px;
-    width: 350px;
-    border-radius: 15px;
-    overflow: hidden; 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    flex-direction: column;
-    justify-content: flex-end;
+  height: 250px;
+  width: 350px;
+  border-radius: 15px;
+  overflow: hidden; 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .card , .container{
-  position: relative;
+position: relative;
 }
 .card img {
-    position: absolute;
-    height: 100%;
-    object-fit:fill;
-    z-index: 1;
+  position: absolute;
+  height: 100%;
+  object-fit:fill;
+  z-index: 1;
 }
 
 .container {
-    z-index: 2;
-    gap: 5px;
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  gap: 5px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .card_item {
-    background-color: rgba(255, 255, 255, 0.85);
-    color: #333;
-    padding: 5px 10px;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 /* /////////////////////////////////////////////////////// Quotes Section start  */
 .hadeeth_parent {
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 15px;
-    
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px;
+  
 }
 
 .quote_box {
-    padding: 15px 40px;
-    border-right: 4px solid #8E9775;
-    border-radius: 0 10px 10px 0;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    font-size: 1.3rem;
-    min-width: 300px;
-    text-align: center;
+  padding: 15px 40px;
+  border-right: 4px solid #8E9775;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  font-size: 1.3rem;
+  min-width: 300px;
+  text-align: center;
 }
 
-/* ////////////////////////////////////////////////////////////// Footer Start --- */
+/* ////////////////////////////////////////////////////////////// Footer Start  */
 footer {
-    margin-top:25px;
-    padding-bottom: 15px;
-    border-top: 1px solid #eee;
+  margin-top:25px;
+  padding-bottom: 15px;
+  border-top: 1px solid #eee;
 }
 
 .religious-icons-footer { 
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .religious-icons-footer a {
-    color: #94a3b8;
-    font-size: 1.5rem;
-    transition: 0.3s;
+  color: #94a3b8;
+  font-size: 1.5rem;
+  transition: 0.3s;
 }
