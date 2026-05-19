@@ -10,7 +10,7 @@ Explore the live website here: (https://nadaalafify.github.io/Sakina-Islamic-UI-
 
 ##  Tech Stack
 - **HTML5:** Semantic components to build structured layout blocks for cards, text wrappers, and action buttons.
-- **CSS3 (Pure CSS):** Leveraging **Flexbox** for precise axis alignment, custom grid responsiveness, smooth hover transitions, and refined box-shadow aesthetics.
+- **CSS3 (Pure CSS):** Leveraging **Flexbox** for precise axis alignment and refined box-shadow aesthetics.
 
 ##  Key Features & Design Layout
 - **Aesthetic Card Design:** Beautifully aligned cards featuring Quranic verses, complete with metadata (Surah name, Ayah number, and total Ayah count).
